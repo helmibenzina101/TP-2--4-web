@@ -1,0 +1,204 @@
+body
+{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+header
+ {
+    background-color: rgb(179,154,124);
+    width: 1000px;
+    margin: auto;
+
+ }
+ .img_center
+ {
+    margin: auto;
+    display: block;
+ }
+ h1
+ {
+    text-align: center ;
+    font-size: 40px;
+    font-style: italic;
+    padding: 10px;
+ }
+ #img_iit
+ {
+    width: 100%;
+ }
+ nav
+ {
+   width: 60%;
+  
+ }
+nav a
+{
+    width: 100px ;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 1px;
+    text-decoration: none;
+    display: inline-block;
+
+
+}
+.menu_actuel 
+{
+    background-color: rgb(228, 200,166);
+}
+main
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    width: 1000px;
+    background-color: rgb(228, 200, 166);
+    margin: auto;
+    padding: 2px ;
+}
+main article
+{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+main h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+    text-decoration: underline dashed;
+    text-decoration-color: red  ;
+    font-style:italic;
+    font-size: large;
+    text-align: left;
+
+
+}
+main p 
+ {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-style: normal;
+    text-align: justify;
+    text-indent: 20px;
+ }
+ .img_article
+ {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+ }
+#nom 
+ {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px; /* Ajoutez un padding si nécessaire pour un meilleur espacement du texte */
+  }
+ #prenom
+ {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+ } 
+ #naissance 
+ {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+ } 
+ #pays
+ {
+
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-radius: 15px;
+        padding: 5px;
+     
+ }
+ .tableau {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Style pour toutes les cellules, sauf celles de l'entête */
+  .tableau td {
+    border: 2px solid white;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Style pour les cellules d'entête */
+  .tableau th {
+    background-color: rgb(179, 154, 124);
+    border: 2px solid white;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Alignement spécifique pour la cellule contenant "moyenne générale" */
+  .tableau td.moyenne-generale {
+    text-align: right;
+  }
+  
+  /* Centrage du texte dans les cellules de la colonne "moyenne" */
+  .tableau td.colonne-moyenne {
+    text-align: center;
+  }
+  .galerie {
+    margin: 3px;
+    border: 10px solid white;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  footer {
+    width: 1000px;
+    background-color: rgb(179, 154, 124);
+    margin: 0 auto; /* Centre l'élément */
+    padding: 20px; /* Ajoutez un espace intérieur au besoin */
+  }
+  
+  /* Style pour les paragraphes sous l'élément footer */
+  footer p {
+    font-family: 'Times New Roman', 'serif'; /* Utilisez Times New Roman s'il est disponible, sinon utilisez une police de la famille serif */
+    font-size: 10px;
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+  }
+  @media only screen and (max-width: 1000px) {
+    header {
+    background-color: black;
+    color:white;
+    }
+    p {
+        background-color: black;
+        color:white;
+        }
+        h1 {
+            background-color: black;
+            color:white;
+            }
+    }
